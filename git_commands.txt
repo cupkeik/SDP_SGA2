@@ -1,0 +1,70 @@
+# GIT COMMANDS USED IN SDP_SGA2 ASSIGNMENT
+
+1. git init
+Initializes a new Git repository in the current project directory.
+
+2. git branch -M main
+Renames the current branch to main.
+
+3. git config --global user.name "Fatima Ansari"
+Sets the username associated with Git commits.
+
+4. git config --global user.email "email@example.com"
+Sets the email address associated with Git commits.
+
+5. git status
+Displays the current state of the working directory and staging area.
+
+6. git add .
+Stages all changes in the current directory for committing.
+
+7. git add index.html
+Stages the specified HTML file for committing.
+
+8. git add about.html
+Stages the specified about.html file for committing.
+
+9. git commit -m "Commit message"
+Records staged changes in the repository with a descriptive commit message.
+
+10. git branch feature
+Creates a new branch named feature.
+
+11. git switch feature
+Switches the current working branch to feature.
+
+12. git branch
+Displays all local branches and identifies the current branch.
+
+13. git switch main
+Switches the current working branch back to main.
+
+14. git merge feature
+Merges the changes from the feature branch into the current branch.
+
+15. git log --oneline
+Displays the commit history in a compact format.
+
+16. git log --oneline --graph --decorate --all
+Displays the commit history graphically, including branches and merges.
+
+17. git status --ignored
+Displays the repository status, including ignored files and folders.
+
+18. git revert HEAD
+Creates a new commit that reverses the changes introduced by the most recent commit.
+
+19. git remote add origin <repository-url>
+Connects the local repository to a remote GitHub repository.
+
+20. git remote -v
+Displays the configured remote repository URLs.
+
+21. git push -u origin main
+Pushes the main branch to GitHub and establishes upstream tracking.
+
+22. git push -u origin feature
+Pushes the feature branch to GitHub and establishes upstream tracking.
+
+23. git push origin main
+Pushes subsequent commits on the main branch to GitHub.
